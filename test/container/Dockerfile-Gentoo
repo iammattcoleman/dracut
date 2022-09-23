@@ -23,6 +23,7 @@ RUN emerge -qv \
     app-emulation/qemu \
     app-shells/dash \
     sys-apps/busybox \
+    sys-block/parted \
     sys-fs/btrfs-progs \
     sys-fs/squashfs-tools \
     && rm -rf /var/cache/* /usr/share/doc/* /usr/share/man/* /var/db/repos/gentoo
