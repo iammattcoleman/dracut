@@ -23,7 +23,7 @@ jobs:
         runs-on: ubuntu-latest
         timeout-minutes: 45
         container:
-            image: ghcr.io/dracutdevs/${{ inputs.container }}
+            image: ghcr.io/iammattcoleman/dracut-${{ inputs.container }}
             options: "--privileged -v /dev:/dev"
         steps:
             -   name: "Checkout Repository"
